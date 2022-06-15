@@ -11,8 +11,12 @@ function aguardarTimer (callback) {
     callback();
   }, 3000)
 }
+function subtrair (a, b){
+  return a - b
+}
 
 module.exports = {
   realizarParaAdultos,
-  aguardarTimer
+  aguardarTimer,
+  subtrair
 }
