@@ -15,6 +15,10 @@ function subtrair (a, b){
   return a - b
 }
 
+function subtrair (a, b){
+  return a - b
+}
+
 function somar (a, b) {
   return a + b
 }
@@ -23,5 +27,6 @@ function somar (a, b) {
 module.exports = {
   realizarParaAdultos,
   aguardarTimer,
-  subtrair,
+ subtrair,
   somar}
+
