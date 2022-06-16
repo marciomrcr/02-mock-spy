@@ -12,6 +12,10 @@ function aguardarTimer (callback) {
   }, 3000)
 }
 
+function subtrair (a, b){
+  return a - b
+}
+
 function somar (a, b) {
   return a + b
 }
@@ -20,5 +24,6 @@ function somar (a, b) {
 module.exports = {
   realizarParaAdultos,
   aguardarTimer,
-  somar
+  somar,
+  subtrair
 }
